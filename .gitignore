@@ -1,0 +1,47 @@
+### Projekt_koncowy (Spring Boot / Maven) ###
+
+# Wyniki builda Mavena
+Projekt_koncowy/target/
+Projekt_koncowy/.mvn/wrapper/maven-wrapper.jar
+
+# Baza SQLite - generowana automatycznie przy starcie aplikacji (DataLoader)
+Projekt_koncowy/*.db
+Projekt_koncowy/*.db-journal
+
+# Logi
+*.log
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Claude Code ###
+.claude/settings.local.json
+Projekt_koncowy/CLAUDE.md
+
+### System ###
+.DS_Store
+Thumbs.db
+desktop.ini
